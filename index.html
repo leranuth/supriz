@@ -1,59 +1,33 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <title>Sürpriz</title>
-  <style>
-    body {
-      background-color: #fff8f0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      font-family: "Arial", sans-serif;
-    }
-
-    .flower {
-      width: 200px;
-      height: 200px;
-      background-image: url('https://i.imgur.com/5pLkG9s.png');
-      background-size: cover;
-      background-position: center;
-      margin-bottom: 20px;
-    }
-
-    .note {
-      background-color: #fff0f5;
-      padding: 10px 20px;
-      border: 2px dashed #d87093;
-      border-radius: 10px;
-      cursor: pointer;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-
-    .note:hover {
-      background-color: #ffe4e1;
-    }
-
-    .message {
-      margin-top: 20px;
-      font-size: 20px;
-      color: #d6336c;
-      display: none;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Sürpriz Daisy</title>
+    <style>
+        body {
+            background: #fffbe6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: 'Segoe Script', cursive, sans-serif;
+        }
+        img {
+            max-width: 350px;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        }
+        .caption {
+            margin-top: 24px;
+            font-size: 2em;
+            color: #7a5c2e;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-  <div class="flower"></div>
-  <div class="note" onclick="showMessage()">Notu Aç</div>
-  <div class="message" id="message">Bu senin için Ayten 💖</div>
-
-  <script>
-    function showMessage() {
-      document.getElementById('message').style.display = 'block';
-    }
-  </script>
+    <img src="https://t90181505217.p.clickup-attachments.com/t90181505217/efb90531-61c7-4b68-95a9-ca20e82397b4/generated-image-040c11ac-d0e4-41ae-9638-be019d80e205.png?view=open" alt="Daisy with romantic caption">
+    <div class="caption">bu senin için aşkım <3</div>
 </body>
 </html>
